@@ -27,4 +27,4 @@
     -   이 문제에서 기억해야 할것!
         -   `T extends U ?` 에서 `T`가 제네릭 타입이면 분배법칙이 적용된다!!!!
         -   풀이식
-            ![IMG_207067B386FD-1.jpeg](./img/Exclude%201340e8ceea614630b70161d90ebdd1cd/IMG_207067B386FD-1.jpeg)
+            ![IMG_207067B386FD-1.jpeg](./img/IMG_207067B386FD-1.jpeg)
