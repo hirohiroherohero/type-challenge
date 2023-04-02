@@ -8,9 +8,9 @@
             : never
         : never;
 
-    type Result = Concat<[1], [2]>; // expected to be [1, 2]
+    type Result = Concat<[1, 2, 3], [4, 5, 6]>; // expected to be [1, 2]
 
     type Concat2<T extends unknown[], U extends unknown[]> = [...T, ...U];
 
-    type Result2 = Concat2<[1], [2]>; // expected to be [1, 2]
+    type Result2 = Concat2<[1, 2, 3], [4, 5, 6]>; // expected to be [1, 2]
 }
