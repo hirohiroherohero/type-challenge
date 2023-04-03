@@ -15,7 +15,7 @@
   type D = Includes<[{ a: "A" }], { readonly a: "A" }>; // false [true]
   type E = Includes<[{ readonly a: "A" }], { a: "A" }>; // false [true]
   type F = Includes<[1], 1 | 2>; // false [boolean]
-  type G = Includes<[1 | 2], 1>; // ㅈfalse [true]
+  type G = Includes<[1 | 2], 1>; // false [true]
 }
 
 // 정답
