@@ -32,4 +32,4 @@
 - 정답
   - 생각보다 더 간단했다.. `infer`를 사용하여 타입을 추론하면 끝이였다..
   - `T[number]`를 사용하는것도 있었다.
-    - JS 배열 값에 `as const`로 타입을 좁혀주고 `number`처리했을때 `union`이 나온거랑 똑같은 원리인듯.
+    - JS 배열 값에 `as const`로 타입을 좁혀주고 `typeof TYPE[number]`처리했을때 `union`이 나온거랑 똑같은 원리인듯.
